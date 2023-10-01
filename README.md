@@ -20,7 +20,7 @@ You can use this chainlit interface to upload your documents to your Pinecone in
 
 5- run the command:
     ```shell
-   python -m venv venv
+   python3 -m venv venv
     ```
   and then copy this and paste into your terminal:
   ```shell
