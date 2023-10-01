@@ -19,7 +19,7 @@ You can use this chainlit interface to upload your documents to your Pinecone in
 4- Download and install  Python (if not already installed) : visit the website https://www.python.org/downloads/
 
 5- run the command:
-    ```shell
+  ```shell
    python3 -m venv venv
     ```
   and then copy this and paste into your terminal:
