@@ -20,13 +20,17 @@ You can use this chainlit interface to upload your documents to your Pinecone in
 
 5- run the command:
   ```shell
-   python3 -m venv venv
+   python -m venv venv
   ```
-  and then copy this and paste into your terminal:
-  ```shell
-  . venv/bin/activate
-  ```
-  
+And then:
+  * On Windows:
+    ```shell
+      . venv/Scripts/activate
+    ```
+  * On MacOS:
+    ```shell
+      . venv/bin/activate
+    ```
 6- Now install the required dependencies by running the command:
 ```shell
   pip install -r requirements.txt
