@@ -39,6 +39,10 @@ and then fill the empty fields.
 
 8- Now you can run your programm by running the command:
 ```shell
+    . venv/bin/activate
+```
+and then: 
+```shell
     chainlit run document_qa_using_pinecone.py -w
 ```
 
