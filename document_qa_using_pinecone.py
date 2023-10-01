@@ -1,3 +1,4 @@
+import uuid
 from chainlit.input_widget import Tags
 from langchain.chains import RetrievalQAWithSourcesChain
 from langchain.chat_models import ChatOpenAI
@@ -62,6 +63,7 @@ def process_files(files):
             for i, doc in enumerate(docs):
                 doc.metadata["source"] = f"source_{i}"
                 doc.metadata['departments'] = metadata.get('departments')
+                doc.metadata['unique id'] = str(uuid.uuid4())
                 processed_docs.append(doc)
     cl.user_session.set("docs", docs)
     return processed_docs
